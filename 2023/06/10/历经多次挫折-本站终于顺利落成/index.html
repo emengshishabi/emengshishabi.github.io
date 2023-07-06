@@ -17,7 +17,7 @@
   root: '/',
   algolia: undefined,
   localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
-  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简"},
   noticeOutdate: {"limitDay":365,"position":"top","messagePrev":"距离文章发布日已有(天):","messageNext":"，时长已超过1年，文章内容可能存在不准确的信息。"},
   highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
   copy: {
@@ -202,7 +202,7 @@ document.addEventListener('pjax:send', () => {
       admin: ['DashBing'],
       id: 'c0a4e462328c7a15a935ee101675a3ad',
       updateCountCallback: commentCount
-    },null))
+    },{"number":4}))
 
     gitalk.render('gitalk-container')
   }
